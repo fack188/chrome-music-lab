@@ -5,6 +5,8 @@
   "main": "build/Main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
+    "start": "webpack-dev-server --port 5555",  
+    "build": "webpack"  
   },
   "author": "Yotam Mann",
   "dependencies": {
